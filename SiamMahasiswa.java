@@ -38,7 +38,7 @@ public class SiamMahasiswa {
     }
     public void setsks(int b) {
         sks = b;
-    }
+    }//testing ya?
     public void jumlahSks(double ip, int sks) {
         if (ip >= 3.5 && ip <= 4) {
             if (sks >= 21 && sks <= 24) {
