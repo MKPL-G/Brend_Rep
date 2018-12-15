@@ -39,6 +39,14 @@ public class SiamMahasiswa {
     public void setsks(int b) {
         sks = b;
     }//testing ya?
+	
+	public void tampilUrurtanSKS(){
+		System.out.println("IPK > 3");
+		System.out.println("IPK > 2.5");
+		System.out.println("IPK > 2");
+		System.out.println("IPK > 1.5");
+		System.out.println("IPK > 1");
+	}
     public void jumlahSks(double ip, int sks) {
         if (ip >= 3.5 && ip <= 4) {
             if (sks >= 21 && sks <= 24) {
